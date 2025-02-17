@@ -7,10 +7,14 @@ import { format } from 'date-fns';
 import { es } from 'date-fns/locale';
 import type { Project } from './types';
 
+
+
 function App() {
   const [viewMode, setViewMode] = React.useState<'kanban' | 'table'>('kanban');
   const [selectedProject, setSelectedProject] = React.useState<Project | null>(null);
   const projects = useProjectStore((state) => state.projects);
+
+ 
 
   const getStatusColor = (status: string) => {
     switch (status.toLowerCase()) {

@@ -14,28 +14,122 @@ const sampleData: Project[] = [
     link: "https://github.com/proyecto-saas",
     start_date: "2025-02-16",
     end_date: "2025-06-30",
-    modules: [
+    modules:[
       {
-        id: 101,
-        title: "Autenticación de usuarios",
-        status: "En Desarrollo",
-        assigned_to: "Juan Pérez",
-        tasks: [
-          { task_id: 1, description: "Implementar login con Google", status: "Pendiente" },
-          { task_id: 2, description: "Agregar recuperación de contraseña", status: "En Progreso" }
+        "id": 201,
+        "title": "Ventas",
+        "status": "En Desarrollo",
+        "assigned_to": "Equipo de Ventas",
+        "tasks": [
+          { "task_id": 1, "description": "Implementar Carta QR", "status": "Pendiente" },
+          { "task_id": 2, "description": "Habilitar ventas por mostrador", "status": "En Progreso" },
+          { "task_id": 3, "description": "Asignación de clientes sobre ventas", "status": "Pendiente" }
         ]
       },
       {
-        id: 102,
-        title: "Integración con Facturación Electrónica",
-        status: "Pendiente",
-        assigned_to: "María Gómez",
-        tasks: [
-          { task_id: 3, description: "Configurar endpoints de API", status: "Pendiente" },
-          { task_id: 4, description: "Implementar firma digital", status: "Pendiente" }
+        "id": 202,
+        "title": "Tienda Online",
+        "status": "En Desarrollo",
+        "assigned_to": "Equipo de E-commerce",
+        "tasks": [
+          { "task_id": 1, "description": "Integración con WhatsApp para confirmación de pedidos", "status": "Pendiente" },
+          { "task_id": 2, "description": "Implementación de múltiples medios de pago", "status": "En Progreso" }
+        ]
+      },
+      {
+        "id": 203,
+        "title": "Control de Caja",
+        "status": "En Desarrollo",
+        "assigned_to": "Equipo de Finanzas",
+        "tasks": [
+          { "task_id": 1, "description": "Implementación de arqueo de caja", "status": "Pendiente" },
+          { "task_id": 2, "description": "Implementación de arqueo ciego", "status": "Pendiente" },
+          { "task_id": 3, "description": "Registro de movimientos de caja", "status": "En Progreso" }
+        ]
+      },
+      {
+        "id": 204,
+        "title": "Facturación Electrónica",
+        "status": "Planificación",
+        "assigned_to": "Equipo Legal y Contable",
+        "tasks": [
+          { "task_id": 1, "description": "Integración con Bsale y Open Factura", "status": "Pendiente" },
+          { "task_id": 2, "description": "Integración con el SII", "status": "Pendiente" }
+        ]
+      },
+      {
+        "id": 205,
+        "title": "Gestión de Productos",
+        "status": "En Desarrollo",
+        "assigned_to": "Equipo de Inventario",
+        "tasks": [
+          { "task_id": 1, "description": "Implementación de categorías y subcategorías", "status": "En Progreso" },
+          { "task_id": 2, "description": "Carga de recetas y control de stock", "status": "Pendiente" },
+          { "task_id": 3, "description": "Notificaciones por falta de stock", "status": "Pendiente" }
+        ]
+      },
+      {
+        "id": 206,
+        "title": "Gestión de Clientes",
+        "status": "Planificación",
+        "assigned_to": "Equipo de Atención al Cliente",
+        "tasks": [
+          { "task_id": 1, "description": "Implementación de base de datos de clientes", "status": "Pendiente" },
+          { "task_id": 2, "description": "Desarrollo de cuentas corrientes para clientes", "status": "Pendiente" }
+        ]
+      },
+      {
+        "id": 207,
+        "title": "Gestión de Proveedores",
+        "status": "En Desarrollo",
+        "assigned_to": "Equipo de Compras",
+        "tasks": [
+          { "task_id": 1, "description": "Creación de base de datos de proveedores", "status": "En Progreso" },
+          { "task_id": 2, "description": "Implementación de cuentas corrientes de proveedores", "status": "Pendiente" }
+        ]
+      },
+      {
+        "id": 208,
+        "title": "Gestión de Usuarios",
+        "status": "Planificación",
+        "assigned_to": "Equipo de Seguridad",
+        "tasks": [
+          { "task_id": 1, "description": "Creación de múltiples roles de usuarios", "status": "Pendiente" },
+          { "task_id": 2, "description": "Asignación de cajas por usuario", "status": "Pendiente" }
+        ]
+      },
+      {
+        "id": 209,
+        "title": "Reportes e Indicadores",
+        "status": "En Desarrollo",
+        "assigned_to": "Equipo de Análisis",
+        "tasks": [
+          { "task_id": 1, "description": "Generación de reportes gráficos de ventas", "status": "En Progreso" },
+          { "task_id": 2, "description": "Implementación de descarga de registros en Excel", "status": "Pendiente" }
+        ]
+      },
+      {
+        "id": 210,
+        "title": "Ventas por Delivery",
+        "status": "Planificación",
+        "assigned_to": "Equipo de Integraciones",
+        "tasks": [
+          { "task_id": 1, "description": "Integración con apps de delivery (Uber Eats, Rappi, Justo, PedidosYa)", "status": "Pendiente" },
+          { "task_id": 2, "description": "Configuración de tienda online para delivery", "status": "Pendiente" }
+        ]
+      },
+      {
+        "id": 211,
+        "title": "Monitor de Cocina (KDS)",
+        "status": "En Desarrollo",
+        "assigned_to": "Equipo de Operaciones",
+        "tasks": [
+          { "task_id": 1, "description": "Implementación de comandas digitales", "status": "En Progreso" },
+          { "task_id": 2, "description": "Configuración de alertas sonoras", "status": "Pendiente" }
         ]
       }
     ]
+    
   },
   {
     id: 2,
